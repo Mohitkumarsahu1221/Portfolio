@@ -7,6 +7,7 @@ export const queryClient = new QueryClient();
 export const router = createRouter({
   routeTree,
   defaultPreload: "intent",
+  basepath: '/Portfolio', 
 });
 
 declare module "@tanstack/react-router" {
