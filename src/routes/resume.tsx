@@ -34,7 +34,7 @@ function ResumePage() {
               <p className="eyebrow">Resume</p>
               <h2>Experience & background.</h2>
             </div>
-            <a href="/MohitKumarSahuDS.pdf" className="btn-primary" download>
+            <a href={`${import.meta.env.BASE_URL}MohitKumarSahuDS.pdf`} className="btn-primary" download>
               Download CV ↓
             </a>
           </motion.div>

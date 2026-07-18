@@ -16,7 +16,7 @@ export function Nav() {
     <header className="nav-shell">
       <div className="nav-inner">
         <Link to="/" className="monogram" aria-label="Home">
-          <img src="/m.svg" alt="" aria-hidden="true" />
+          <img src={`${import.meta.env.BASE_URL}m.svg`} alt="" aria-hidden="true" />
         </Link>
         <nav className="nav-links" aria-label="Primary">
           {navItems.map((item) => (

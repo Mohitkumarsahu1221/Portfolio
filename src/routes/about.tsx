@@ -36,7 +36,7 @@ function AboutPage() {
           <div className="about-grid">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.15 }}>
               <div className="portrait">
-                <img src="/mohit.png" alt="Mohit Kumar Sahu" />
+                <img src={`${import.meta.env.BASE_URL}mohit.png`} alt="Mohit Kumar Sahu" />
               </div>
               <div className="skill-groups">
                 {skillGroups.map((group) => (

@@ -90,7 +90,7 @@ function HomePage() {
               transition={{ duration: 0.7, ease: "easeOut", delay: 0.15 }}
             >
               <div className="hero-portrait">
-                <img src="/mohit1.png" alt="Mohit Kumar Sahu" />
+                <img src={`${import.meta.env.BASE_URL}mohit1.png`} alt="Mohit Kumar Sahu" />
               </div>
               <div className="hero-name">Mohit Kumar Sahu</div>
             </motion.div>
@@ -127,7 +127,7 @@ function HomePage() {
             </Link>
           </motion.div>
           <motion.div className="portrait" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.15 }}>
-            <img src="/mohit.png" alt="Mohit Kumar Sahu" />
+            <img src={`${import.meta.env.BASE_URL}mohit.png`} alt="Mohit Kumar Sahu" />
           </motion.div>
         </div>
       </section>
