@@ -51,13 +51,13 @@ function HomePage() {
               }}
             >
               <motion.p variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }} className="eyebrow">
-                AI/ML engineer
+                Intro
               </motion.p>
               <motion.h1 variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }} className="hero-title">
                 Aspiring <span className="accent">AI/ML engineer</span> building intelligent, data-driven systems.
               </motion.h1>
               <motion.p variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }} className="hero-sub">
-                Final-year CSE (AI/ML) student building role-based platforms and data science projects — from customer segmentation to recommendation systems — with Python, Django, and scikit-learn.
+                I'm a software engineer with a big passion for Artificial Intelligence, Machine Learning, and Generative AI. I build and deliver intelligent applications leveraging Large Language Models, RAG, AI Agents and modern cloud infrastructure.
               </motion.p>
               <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }} className="hero-ctas">
                 <Link to="/projects" className="btn-primary">
@@ -72,13 +72,16 @@ function HomePage() {
                   <span className="dot" />LLMs
                 </span>
                 <span className="chip">
+                  <span className="dot" />Retrieval-Augmented Generation (RAG)
+                </span>
+                <span className="chip">
                   <span className="dot" />Machine Learning
                 </span>
                 <span className="chip">
-                  <span className="dot" />Data Analysis
+                  <span className="dot" />Generative AI
                 </span>
                 <span className="chip">
-                  <span className="dot" />Recommendation Systems
+                  <span className="dot" />Agentic AI
                 </span>
               </motion.div>
             </motion.div>

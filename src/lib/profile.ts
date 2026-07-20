@@ -1,3 +1,5 @@
+import { Code } from "lucide-react";
+
 export const PROFILE = {
   name: "Mohit Kumar Sahu",
   email: "mohit26lnct@gmail.com",
@@ -43,11 +45,11 @@ export type SkillGroup = {
 };
 
 export const skillGroups: SkillGroup[] = [
-  { label: "Languages", items: ["Python", "C++"] },
-  { label: "Frameworks & Tools", items: ["Django", "Git"] },
-  { label: "Data & ML", items: ["Scikit-learn", "K-Means", "Pandas", "NumPy", "Seaborn", "Plotly"] },
-  { label: "Databases", items: ["MySQL", "SQLite", "DBMS"] },
-  { label: "CS Fundamentals", items: ["Data Structures & Algorithms"] },
+  { label: "Languages", items: ["Python", "C++", "Java", "JavaScript","SQL"] },
+  { label: "Frameworks & Tools", items: ["Git", "GitHub", "Docker", "Postman", "VS Code", "FastAPI", "Node.js", "Django", "REST APIs"] },
+  { label: "Machine Learning/Deep Learning", items: ["PyTorch", "Scikit-learn", "NumPy", "Pandas", "Model Training", "Fine-tuning", "Model Evaluation", "Optimization", "Data Preprocessing"] },
+  { label: "AI/GenAI Stack", items: ["LangChain", "LangGraph", "Hugging Face", "OpenAI API", "Mistral API", "RAG", "Prompt Engineering", "Embeddings", "Agentic AI", "MCP"] },
+  { label: "Databases", items: ["MySQL", "MongoDB", "Pinecone"] }
 ];
 
 export type TimelineEntry = {
