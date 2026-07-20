@@ -1,5 +1,3 @@
-import { Code } from "lucide-react";
-
 export const PROFILE = {
   name: "Mohit Kumar Sahu",
   email: "mohit26lnct@gmail.com",
